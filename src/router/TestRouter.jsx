@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
-import { Header, Items, Test } from "src/tests";
+import { Form, Header, Items, Test } from "src/tests";
 
 const TestRouter = () => {
     return (
@@ -8,6 +8,7 @@ const TestRouter = () => {
             <Route path="/" element={<Test />} />
             <Route path="items" element={<Items />} />
             <Route path="header" element={<Header />} />
+            <Route path="form" element={<Form />} />
         </Routes>
     )
 }
