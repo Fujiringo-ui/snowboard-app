@@ -5,6 +5,7 @@ import {
     Routes
 } from 'react-router-dom';
 import { About, TopPage } from "src/pages";
+import { TestRouter } from ".";
 
 const MainRouter = () => {
     return (
@@ -12,11 +13,10 @@ const MainRouter = () => {
             <Routes>
                 <Route path="/" element={<TopPage />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/test/*" element={<TestRouter />} />
             </Routes>
         </Router>
     )
 }
-
-console.log('Main Router')
 
 export default MainRouter;
