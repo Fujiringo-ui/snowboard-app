@@ -1,0 +1,42 @@
+// .pic-container {
+//     display: grid;
+//     place-items: center;
+//     width: 100vw;
+//     height: 100vh;
+//     box-sizing: border-box;
+//     padding: 0px 2rem;
+//     background-color: rgb(254, 254, 254);
+// }
+
+.search_box {
+    display: flex;
+    width: 80%;
+    &__input {
+        flex-grow: 1;
+        padding: 0.7rem 0 0.7rem 0.8rem;
+        border: 1px solid #ededed;
+        border-radius: 1.5rem 0 0 1.5rem;
+        box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.2);
+
+        &:focus {
+            outline: 0;
+            border: 1px solid #4ab6f6;
+        }
+    }
+
+    &__button{
+        cursor: pointer;
+        padding: .8rem .9rem .8rem .8rem;
+        border-radius: 0 1.5rem 1.5rem 0;
+        border: none;
+        background-color: #c3c4c5;
+        color: #fff;
+        font-size: .75rem;
+        box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.2);
+
+
+        &:hover {
+            color: #4ab6f6;
+        }
+    }
+}
