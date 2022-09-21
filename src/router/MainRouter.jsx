@@ -4,7 +4,7 @@ import {
     Route,
     Routes
 } from 'react-router-dom';
-import { About, TopPage } from "src/pages";
+import { TopPage } from "src/Pages";
 import { TestRouter } from ".";
 
 const MainRouter = () => {
@@ -12,7 +12,7 @@ const MainRouter = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<TopPage />} />
-                <Route path="/about" element={<About />} />
+        
                 <Route path="/test/*" element={<TestRouter />} />
             </Routes>
         </Router>

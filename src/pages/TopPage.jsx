@@ -1,22 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { TopAd } from "src/components/Items";
-import styles from "src/sass/pages/top_page.module.scss"
+import { FlexColumn, FlexRow } from "src/components/Flex";
+import { SearchBox } from "src/components/Form";
+import { Spacer } from "src/components/Utility";
+import styles from "src/sass/Pages/TopPage.module.scss";
+import snowy from "src/images/snowy-logo-high.png" ;
+
 
 const TopPage = () => {
-    const ads = [
-        "ad 1",
-        "ad 2",
-        "ad 3",
-    ]
-
     return (
-        <div>
-            <h1 className={styles.header}>top page</h1>
-            {ads.map((ad) =>
-                (<TopAd ad_content={ad}/>)
-            )}
-            <Link to="/about">About</Link>
+        <div className={styles.TopPage}>
+            <FlexColumn>
+                <Spacer  size={200}/> 
+                <FlexRow justifyContent={"center"}>
+                    <object aria-label={"logo"} data={snowy}/>
+                </FlexRow>
+                <Spacer  size={120}/>
+                <FlexRow justifyContent={"center"}>
+                    <SearchBox/>
+                </FlexRow>
+            </FlexColumn>
+           
         </div>
     )
 }
