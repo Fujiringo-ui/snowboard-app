@@ -1,0 +1,13 @@
+.search_button {
+    background-color: aquamarine;
+    width: 50px;
+    height: 30px;
+
+    &__white_circle {
+        z-index: 100;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        content: "";
+    }
+}
