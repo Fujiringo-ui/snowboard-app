@@ -4,7 +4,7 @@ import {
     Route,
     Routes
 } from 'react-router-dom';
-import { TopPage } from "src/Pages";
+import { TopPage, SecondPage } from "src/Pages";
 import { TestRouter } from ".";
 
 const MainRouter = () => {
@@ -12,8 +12,9 @@ const MainRouter = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<TopPage />} />
-        
+                <Route path="/snowpark" element={<SecondPage />} />
                 <Route path="/test/*" element={<TestRouter />} />
+                <Route path="*" element={<div>404 ERROR PAGE</div>} />
             </Routes>
         </Router>
     )

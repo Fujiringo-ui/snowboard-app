@@ -1,0 +1,121 @@
+{
+  "神立": {
+    "park_name": "神立スノーリゾート",
+    "amount_snow": 140,
+    "quality": "パウダー",
+    "amount": "60cm",
+    "weather": "🌤",
+    "max_temp": "15℃",
+    "min_temp": "6℃",
+    "park": "OPEN",
+    "wind": "5m/s"
+  },
+
+  "妙高": {
+    "park_name": "妙高杉の原スキー場",
+    "amount_snow": 300,
+    "quality": "パウダー",
+    "amount": "60cm",
+    "weather": "🌤",
+    "max_temp": "15℃",
+    "min_temp": "6℃",
+    "park": "OPEN",
+    "wind": "5m/s"
+  },
+
+  "苗場": {
+    "park_name": "苗場スキー場",
+    "amount_snow": 150,
+    "quality": "ベタ雪",
+    "amount": "55cm",
+    "weather": "🌞",
+    "max_temp": "17℃",
+    "min_temp": "10℃",
+    "park": "CLOSE",
+    "wind": "0m/s"
+  },
+
+  "池の平": {
+    "park_name": "池の平温泉スキー場",
+    "amount_snow": 120,
+    "quality": "ザラメ雪",
+    "amount": "30cm",
+    "weather": "🌞",
+    "max_temp": "16℃",
+    "min_temp": "11℃",
+    "park": "CLOSE",
+    "wind": "1m/s"
+  },
+
+  "上越": {
+    "park_name": "上越国際スキー場",
+    "amount_snow": 170,
+    "quality": "アイスバーン",
+    "amount": "100cm",
+    "weather": "⛄️",
+    "max_temp": "8℃",
+    "min_temp": "-3℃",
+    "park": "OPEN",
+    "wind": "1m/s"
+  },
+
+  "舞子": {
+    "park_name": "舞子スノーリゾート",
+    "amount_snow": 165,
+    "quality": "パウダー",
+    "amount": "115cm",
+    "weather": "⛄️",
+    "max_temp": "7℃",
+    "min_temp": "-4℃",
+    "park": "OPEN",
+    "wind": "5m/s"
+  },
+
+  "かぐら": {
+    "park_name": "かぐらスキー場",
+    "amount_snow": 155,
+    "quality": "パウダー",
+    "amount": "120cm",
+    "weather": "⛄️",
+    "max_temp": "6℃",
+    "min_temp": "-1℃",
+    "park": "OPEN",
+    "wind": "3m/s"
+  },
+
+  "丸山": {
+    "park_name": "石打丸山スキー場",
+    "amount_snow": 120,
+    "quality": "パウダー",
+    "amount": "50cm",
+    "weather": "🌤",
+    "max_temp": "10℃",
+    "min_temp": "4℃",
+    "park": "OPEN",
+    "wind": "2m/s"
+  },
+
+  "中里": {
+    "park_name": "湯沢中里スノーリゾート",
+    "amount_snow": 100,
+    "quality": "ベタ雪",
+    "amount": "45cm",
+    "weather": "🌤",
+    "max_temp": "12℃",
+    "min_temp": "5℃",
+    "park": "OPEN",
+    "wind": "0m/s"
+  },
+
+  "湯沢": {
+    "park_name": "GALA湯沢スキー場",
+    "amount_snow": 180,
+    "quality": "パウダー",
+    "amount": "80cm",
+    "weather": "🌥",
+    "max_temp": "11℃",
+    "min_temp": "8℃",
+    "park": "OPEN",
+    "wind": "5m/s"
+  }
+}

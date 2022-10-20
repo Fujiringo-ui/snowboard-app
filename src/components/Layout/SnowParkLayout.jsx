@@ -1,0 +1,26 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "src/sass/components/Layout/Link.module.scss";
+
+
+const SnowParkLayout=(props) =>{
+    const { children, parkName }= props
+
+    return (
+        <div className={styles.layout}>
+            <div className={styles.layout__header}>
+                <Link className={styles.link} to="/">
+                    <div className={styles.link__one} />
+                </Link>
+                <div className={styles.park_name}>
+                    {parkName}
+                </div>
+                <div className={styles.layout__header__duct}></div>
+            </div>
+            {children}
+        </div>
+        )
+ 
+}
+
+export default SnowParkLayout

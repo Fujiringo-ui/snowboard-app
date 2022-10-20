@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+.snow_cover {
+  font-family: 'Kiwi Maru', serif;
+  min-width: 150px;
+  height: 120px;
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  .cover {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    text-shadow: 0px 3px 6px rgb(0, 0, 0, 0.2);
+
+    .amount {
+      font-size: 54px;
+      line-height: 54px;
+      font-weight: bold;
+    }
+    .cm {
+      font-size: 35px;
+      font-weight: bold;
+    }
+  }
+}
