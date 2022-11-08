@@ -1,0 +1,15 @@
+@mixin pc {
+  @media screen and (min-width: 767px) {
+    @content;
+  }
+}
+.snow_particlesjs {
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  height: 100%;
+
+  @include pc() {
+    width: 100%;
+  }
+}

@@ -86,7 +86,7 @@
   "丸山": {
     "park_name": "石打丸山スキー場",
     "amount_snow": 120,
-    "quality": "パウダー",
+    "quality": "アイスバーン",
     "amount": "50cm",
     "weather": "🌤",
     "max_temp": "10℃",
@@ -116,6 +116,18 @@
     "max_temp": "11℃",
     "min_temp": "8℃",
     "park": "OPEN",
+    "wind": "5m/s"
+  },
+
+  "イエティ": {
+    "park_name": "スノータウンイエティ",
+    "amount_snow": 20,
+    "quality": "ベタ雪",
+    "amount": "0cm",
+    "weather": "🌥",
+    "max_temp": "11℃",
+    "min_temp": "8℃",
+    "park": "CLOSE",
     "wind": "5m/s"
   }
 }

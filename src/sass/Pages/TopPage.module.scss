@@ -1,12 +1,19 @@
-.TopPage{
-     background: linear-gradient(white, #66B0A3);
-     height: 100vh;
+.TopPage {
+  margin: 0 auto;
+  background: linear-gradient(white, #66b0a3);
+  height: 100vh;
 
-     object{
-        width: 300px;
+  width: 100%;
+  //   position: absolute;
+  max-width: 414px;
+  max-height: 896px;
 
+  //   &__cover {
+  //     display: flex;
+  //     justify-content: center;
+  //   }
 
-
-     }
+  object {
+    width: 300px;
+  }
 }
-
