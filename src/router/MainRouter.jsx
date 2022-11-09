@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { TopPage, SecondPage } from 'src/Pages/index';
+import { TopPage, SecondPage } from '../Pages';
 import { TestRouter } from '.';
 
 const MainRouter = () => {
